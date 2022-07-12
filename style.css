@@ -375,3 +375,40 @@ footer ul li:nth-child(3) {
 footer ul li:nth-child(4) {
   order: 4;
 }
+@media screen and (max-width: 600px) {
+  header {
+    position: absolute;
+    justify-content: center;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  li.small, li.large {
+    flex-basis: 100%;
+  }
+
+  .features .grid {
+    flex-direction: column;
+  }
+ 
+  .newsletter input {
+    margin-bottom: 15px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  footer ul li i {
+    font-size: 40px;
+  }
+
+}
