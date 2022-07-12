@@ -126,6 +126,9 @@ li.small {
 li.large {
   flex-basis: 60%;
 }
+li.alt {
+  flex-basis: 50%;
+}
 
 nav,
 ul {
